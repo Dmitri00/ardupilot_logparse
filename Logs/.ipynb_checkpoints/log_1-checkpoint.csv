@@ -1,1 +1,0 @@
-timestamp,VFR_HUD.heading,VFR_HUD.alt,VFR_HUD.climb,VIBRATION.vibration_x,VIBRATION.vibration_y,VIBRATION.vibration_z,SCALED_IMU2.xacc,SCALED_IMU2.xgyro,SCALED_IMU2.yacc,SCALED_IMU2.ygyro,SCALED_IMU2.zacc,SCALED_IMU2.zgyro,ATTITUDE.roll,ATTITUDE.rollspeed,ATTITUDE.pitch,ATTITUDE.pitchspeed,ATTITUDE.yaw,ATTITUDE.yawspeed,SCALED_PRESSURE2.temperature
