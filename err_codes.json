@@ -1,0 +1,344 @@
+[
+  {
+    "Subsys": 2,
+    "subsys_name": "Radio",
+    "ECode": 0,
+    "description": "Errors Resolved"
+  },
+  {
+    "Subsys": 2,
+    "subsys_name": "Radio",
+    "ECode": 2,
+    "description": "Late Frame : no updates received from receiver for two seconds"
+  },
+  {
+    "Subsys": 3,
+    "subsys_name": "Compass",
+    "ECode": 0,
+    "description": "Errors Resolved"
+  },
+  {
+    "Subsys": 3,
+    "subsys_name": "Compass",
+    "ECode": 1,
+    "description": "Failed to initialise (probably a hardware issue)"
+  },
+  {
+    "Subsys": 3,
+    "subsys_name": "Compass",
+    "ECode": 4,
+    "description": "Unhealthy : failed to read from the sensor"
+  },
+  {
+    "Subsys": 5,
+    "subsys_name": "Radio Failsafe",
+    "ECode": 0,
+    "description": "Failsafe Resolved"
+  },
+  {
+    "Subsys": 5,
+    "subsys_name": "Radio Failsafe",
+    "ECode": 1,
+    "description": "Failsafe Triggered"
+  },
+  {
+    "Subsys": 6,
+    "subsys_name": "Battery Failsafe",
+    "ECode": 0,
+    "description": "Failsafe Resolved"
+  },
+  {
+    "Subsys": 6,
+    "subsys_name": "Battery Failsafe",
+    "ECode": 1,
+    "description": "Failsafe Triggered"
+  },
+  {
+    "Subsys": 8,
+    "subsys_name": "GCS Failsafe",
+    "ECode": 0,
+    "description": "Failsafe Resolved"
+  },
+  {
+    "Subsys": 8,
+    "subsys_name": "GCS Failsafe",
+    "ECode": 1,
+    "description": "Failsafe Triggered"
+  },
+  {
+    "Subsys": 9,
+    "subsys_name": "Fence Failsafe",
+    "ECode": 0,
+    "description": "Failsafe Resolved"
+  },
+  {
+    "Subsys": 9,
+    "subsys_name": "Fence Failsafe",
+    "ECode": 1,
+    "description": "Altitude fence breach, Failsafe Triggered"
+  },
+  {
+    "Subsys": 9,
+    "subsys_name": "Fence Failsafe",
+    "ECode": 2,
+    "description": "Circular fence breach, Failsafe Triggered"
+  },
+  {
+    "Subsys": 9,
+    "subsys_name": "Fence Failsafe",
+    "ECode": 3,
+    "description": "Both Alt and Circular fence breached, Failsafe Triggered"
+  },
+  {
+    "Subsys": 9,
+    "subsys_name": "Fence Failsafe",
+    "ECode": 4,
+    "description": "Polygon fence breached, Failsafe Triggered"
+  },
+  {
+    "Subsys": 10,
+    "subsys_name": "Flight mode Change failure",
+    "ECode": null,
+    "description": "Vehicle was unable to enter the desired flight mode normally because of a bad position estimate"
+  },
+  {
+    "Subsys": 11,
+    "subsys_name": "GPS",
+    "ECode": 0,
+    "description": "Glitch cleared"
+  },
+  {
+    "Subsys": 11,
+    "subsys_name": "GPS",
+    "ECode": 2,
+    "description": "GPS Glitch occurred"
+  },
+  {
+    "Subsys": 12,
+    "subsys_name": "Crash Check",
+    "ECode": 1,
+    "description": "Crash into ground detected. Normally vehicle is disarmed soon after"
+  },
+  {
+    "Subsys": 12,
+    "subsys_name": "Crash Check",
+    "ECode": 2,
+    "description": "Loss of control detected. Normally parachute is released soon after"
+  },
+  {
+    "Subsys": 13,
+    "subsys_name": "Flip mode",
+    "ECode": 2,
+    "description": "Flip abandoned (not armed, pilot input or timeout)"
+  },
+  {
+    "Subsys": 15,
+    "subsys_name": "Parachute",
+    "ECode": 2,
+    "description": "Not Deployed, vehicle too low"
+  },
+  {
+    "Subsys": 15,
+    "subsys_name": "Parachute",
+    "ECode": 3,
+    "description": "Not Deployed, vehicle landed"
+  },
+  {
+    "Subsys": 16,
+    "subsys_name": "EKF Check",
+    "ECode": 0,
+    "description": "Variance cleared (position estimate OK)"
+  },
+  {
+    "Subsys": 16,
+    "subsys_name": "EKF Check",
+    "ECode": 2,
+    "description": "Bad Variance (position estimate bad)"
+  },
+  {
+    "Subsys": 17,
+    "subsys_name": "EKF Failsafe",
+    "ECode": 0,
+    "description": "Failsafe Resolved"
+  },
+  {
+    "Subsys": 17,
+    "subsys_name": "EKF Failsafe",
+    "ECode": 1,
+    "description": "Failsafe Triggered"
+  },
+  {
+    "Subsys": 18,
+    "subsys_name": "Barometer",
+    "ECode": 0,
+    "description": "Errors Resolved"
+  },
+  {
+    "Subsys": 18,
+    "subsys_name": "Barometer",
+    "ECode": 4,
+    "description": "Unhealthy : failed to read from the sensor"
+  },
+  {
+    "Subsys": 19,
+    "subsys_name": "CPU Load Watchdog",
+    "ECode": 0,
+    "description": "Failsafe Resolved"
+  },
+  {
+    "Subsys": 19,
+    "subsys_name": "CPU Load Watchdog",
+    "ECode": 1,
+    "description": "Failsafe Triggered (normally vehicle disarms)"
+  },
+  {
+    "Subsys": 20,
+    "subsys_name": "ADSB Failsafe",
+    "ECode": 0,
+    "description": "Failsafe Resolved"
+  },
+  {
+    "Subsys": 20,
+    "subsys_name": "ADSB Failsafe",
+    "ECode": 1,
+    "description": "No action just report to Pilot"
+  },
+  {
+    "Subsys": 20,
+    "subsys_name": "ADSB Failsafe",
+    "ECode": 2,
+    "description": "Vehicle avoids by climbing or descending"
+  },
+  {
+    "Subsys": 20,
+    "subsys_name": "ADSB Failsafe",
+    "ECode": 3,
+    "description": "Vehicle avoids by moving horizontally"
+  },
+  {
+    "Subsys": 20,
+    "subsys_name": "ADSB Failsafe",
+    "ECode": 4,
+    "description": "Vehicle avoids by moving perpendicular to other vehicle"
+  },
+  {
+    "Subsys": 20,
+    "subsys_name": "ADSB Failsafe",
+    "ECode": 5,
+    "description": "RTL invoked"
+  },
+  {
+    "Subsys": 21,
+    "subsys_name": "Terrain Data",
+    "ECode": 2,
+    "description": "missing terrain data"
+  },
+  {
+    "Subsys": 22,
+    "subsys_name": "Navigation",
+    "ECode": 2,
+    "description": "Failed to set destination"
+  },
+  {
+    "Subsys": 22,
+    "subsys_name": "Navigation",
+    "ECode": 3,
+    "description": "RTL restarted"
+  },
+  {
+    "Subsys": 22,
+    "subsys_name": "Navigation",
+    "ECode": 4,
+    "description": "Circle initialisation failed"
+  },
+  {
+    "Subsys": 22,
+    "subsys_name": "Navigation",
+    "ECode": 5,
+    "description": "Destination outside fence"
+  },
+  {
+    "Subsys": 23,
+    "subsys_name": "Terrain Failsafe",
+    "ECode": 0,
+    "description": "Failsafe Resolved"
+  },
+  {
+    "Subsys": 23,
+    "subsys_name": "Terrain Failsafe",
+    "ECode": 1,
+    "description": "Failsafe Triggered (normally vehicle RTLs)"
+  },
+  {
+    "Subsys": 24,
+    "subsys_name": "EKF Primary changed",
+    "ECode": 0,
+    "description": "1st EKF has become primary"
+  },
+  {
+    "Subsys": 24,
+    "subsys_name": "EKF Primary changed",
+    "ECode": 1,
+    "description": "2nd EKF has become primary"
+  },
+  {
+    "Subsys": 25,
+    "subsys_name": "Thrust Loss Check",
+    "ECode": 0,
+    "description": "Thrust Restored"
+  },
+  {
+    "Subsys": 25,
+    "subsys_name": "Thrust Loss Check",
+    "ECode": 1,
+    "description": "Thrust Loss Detected (altitude may be prioritised over yaw control)"
+  },
+  {
+    "Subsys": 26,
+    "subsys_name": "Sensor Failsafe (Sub)",
+    "ECode": 0,
+    "description": "Sensor Failsafe Cleared"
+  },
+  {
+    "Subsys": 26,
+    "subsys_name": "Sensor Failsafe (Sub)",
+    "ECode": 1,
+    "description": "Sensor Failsafe Triggered"
+  },
+  {
+    "Subsys": 27,
+    "subsys_name": "Leak Failsafe (Sub)",
+    "ECode": 0,
+    "description": "Leak Failsafe Cleared"
+  },
+  {
+    "Subsys": 27,
+    "subsys_name": "Leak Failsafe (Sub)",
+    "ECode": 1,
+    "description": "Leak Detector Failsafe Triggered"
+  },
+  {
+    "Subsys": 28,
+    "subsys_name": "Pilot Input Timeout Failsafe (Sub only)",
+    "ECode": 0,
+    "description": "Pilot Input Failsafe Cleared"
+  },
+  {
+    "Subsys": 28,
+    "subsys_name": "Pilot Input Timeout Failsafe (Sub only)",
+    "ECode": 1,
+    "description": "Pilot Input Failsafe Triggered"
+  },
+  {
+    "Subsys": 29,
+    "subsys_name": "Vibration Failsafe",
+    "ECode": 0,
+    "description": "Excessive Vibration Compensation De-activated"
+  },
+  {
+    "Subsys": 29,
+    "subsys_name": "Vibration Failsafe",
+    "ECode": 1,
+    "description": "Excessive Vibration Compenstaion Activated"
+  }
+]
